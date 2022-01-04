@@ -1,0 +1,60 @@
+:root {
+  --accent-black-color: #212121;
+  --secondary-black-color: #757575;
+  --light-color: #ffffff;
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+}
+
+.body {
+  letter-spacing: 0.03;
+  font-weight: normal;
+  font-size: 16;
+}
+
+.header-section {
+  position: absolute;
+  width: 1600;
+  height: 80;
+  left: 0;
+  top: 0;
+}
+.header-logo {
+  font-weight: bold;
+  font-size: 26;
+  line-height: 1.19;
+  color: #2196f3;
+  font-family: var(--secondary-font);
+}
+
+.header-logo-black {
+  color: #000000;
+  font-family: var(--secondary-font);
+}
+
+.header-pages {
+  font-weight: 500;
+  font-size: 14;
+  line-height: 1.14;
+  letter-spacing: 0.02;
+  color: var(--accent-black-color);
+  font-family: var(--main-font);
+}
+
+.header-email {
+  font-weight: 500;
+  font-size: 14;
+  line-height: 1.14;
+  letter-spacing: 0.02;
+  color: var(--secondary-black-color);
+  font-family: var(--main-font);
+}
+
+.header-telephone {
+  font-weight: 500;
+  font-size: 14;
+  line-height: 1.14;
+  letter-spacing: 0.02;
+  color: var(--secondary-black-color);
+  font-family: var(--main-font);
+}
